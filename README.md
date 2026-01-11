@@ -42,3 +42,19 @@ In this project, we used [RandomForestRegressor](https://scikit-learn.org/stable
 
 ## 5. Result<a name="results"></a>
 The details of the results show in the code.
+
+### Model Evaluation Metrics
+
+#### Linear Regression
+- Accuracy (R-squared): ~12.47%
+- Mean Absolute Error: ~441,063
+- Mean Squared Error: ~282.4B
+- Root Mean Squared Error: ~531,412
+
+#### Random Forest Regressor
+- Accuracy (R-squared): ~95.34%
+- Mean Absolute Error: ~62,353
+- Mean Squared Error: ~15.46B
+- Root Mean Squared Error: ~124,332
+
+The Random Forest model outperformed Linear Regression in predicting weekly sales.
